@@ -1,7 +1,7 @@
 /* 
  @mark imports 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* 
  @mark root 
 */
@@ -10,9 +10,12 @@
 
  --t-000: #000;
  --t-fff: #fff;
+ --t-1b54dd: #1b54dd;
 
  --b-000: #000;
  --b-fff: #fff;
+ --b-1b54dd: #1b54dd;
+ --b-e8e8e8: #e8e8e8;
 }
 
 /* 
@@ -50,7 +53,7 @@
   @apply w-[7px];
  }
  body {
-  @apply font-400 text-16 leading-n text-[var(--t-dark)] bg-[var(--b-white)];
+  @apply font-inter font-400 text-16 leading-n text-[var(--t-dark)] bg-[var(--b-white)];
  }
  input,
  select,

@@ -4,7 +4,7 @@ export default {
  theme: {
   extend: {},
   fontFamily: {
-   sans: ['', 'sans-serif'],
+   inter: ['Inter', 'sans-serif'],
   },
   fontSize: {
    16: 'var(--sz-16)',
