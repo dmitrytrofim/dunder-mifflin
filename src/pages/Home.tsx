@@ -1,9 +1,5 @@
 import Container from '~/components/Container';
-import GreetPhoto from '~/assets/img/greet.png';
 import Button from '~/components/Button';
-import Team1 from '~/assets/img/team-1.png';
-import Team2 from '~/assets/img/team-2.png';
-import Team3 from '~/assets/img/team-3.png';
 import TeamCard from '~/components/TeamCard';
 
 function Home() {
@@ -15,7 +11,7 @@ function Home() {
       <h1 className="text-[36px] font-700 mb-[32px]">I am Beyoncé always.</h1>
       <img
        className="flex w-full aspect-[1.777] object-cover mb-[32px]"
-       src={GreetPhoto}
+       src="/portfolio/works/dunder-mifflin/img/greet.png"
        alt=""
       />
       <h2 className="text-[24px] font-700 mb-[32px]">
@@ -38,17 +34,17 @@ function Home() {
        <TeamCard
         title="I live by one rule."
         text="No office romances, no way. Very messy, inappropriate… no. But, I live by another rule: Just do it… Nike."
-        img={Team1}
+        img="/portfolio/works/dunder-mifflin/img/team-1.png"
        />
        <TeamCard
         title="I work hard all day."
         text="I like knowing that there's going to be a break. Most days I just sit and wait for the break."
-        img={Team2}
+        img="/portfolio/works/dunder-mifflin/img/team-2.png"
        />
        <TeamCard
         title="I am fast."
         text="To give you a reference point. I'm somewhere between a snake and a mongoose. And a panther."
-        img={Team3}
+        img="/portfolio/works/dunder-mifflin/img/team-3.png"
        />
       </ul>
       <Button blue />

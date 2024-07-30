@@ -1,7 +1,4 @@
 import Container from '~/components/Container';
-import IconCalendar from '~/assets/img/svg/icon-calendar.svg';
-import IconClock from '~/assets/img/svg/icon-clock.svg';
-import IconLocation from '~/assets/img/svg/icon-location.svg';
 
 function Contacts() {
  return (
@@ -18,15 +15,27 @@ function Contacts() {
      </p>
      <address className="self-center flex flex-col gap-[16px] w-full max-w-[320px] border-[2px] border-[var(--b-1b54dd)] not-italic p-[16px] mb-[32px]">
       <div className="flex items-start gap-[8px]">
-       <img src={IconCalendar} className="" alt="" />
+       <img
+        src="/portfolio/works/dunder-mifflin/img/svg/icon-calendar.svg"
+        className=""
+        alt=""
+       />
        <span className="text-[14px]">March 27-30, 2021</span>
       </div>
       <div className="flex items-start gap-[8px]">
-       <img src={IconClock} className="" alt="" />
+       <img
+        src="/portfolio/works/dunder-mifflin/img/svg/icon-clock.svg"
+        className=""
+        alt=""
+       />
        <span className="text-[14px]">9-5 PST</span>
       </div>
       <div className="flex items-start gap-[8px]">
-       <img src={IconLocation} className="" alt="" />
+       <img
+        src="/portfolio/works/dunder-mifflin/img/svg/icon-location.svg"
+        className=""
+        alt=""
+       />
        <span className="text-[14px]">
         Dunder Mifflin, 1725 Slough Avenue, #200, Scranton, PA, 18540
        </span>
