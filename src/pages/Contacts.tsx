@@ -32,8 +32,10 @@ function Contacts() {
        </span>
       </div>
      </address>
-     <span className="text-center mb-[8px]">Add to your calendar:</span>
-     <p className="flex justify-center text-[14px] font-600 gap-[5px] text-center text-[var(--t-1b54dd)]">
+     <span className="text-center mb-[8px] max-[640px]:mb-[16px]">
+      Add to your calendar:
+     </span>
+     <p className="flex justify-center text-[14px] font-600 gap-[5px] text-center text-[var(--t-1b54dd)] max-[640px]:flex-col">
       <a href="#" className="">
        Outlook
       </a>

@@ -8,9 +8,9 @@ function TeamCard({
  url = '#',
 }: ITeamProps) {
  return (
-  <li className="flex items-center gap-[32px]">
+  <li className="flex items-center gap-[32px] max-[640px]:flex-col max-[640px]:gap-[16px]">
    <img
-    className="flex shrink-0 w-full max-w-[220px] aspect-square object-cover"
+    className="flex shrink-0 w-full max-w-[220px] aspect-square object-cover max-[640px]:max-w-none"
     src={img}
     alt=""
     loading="lazy"
